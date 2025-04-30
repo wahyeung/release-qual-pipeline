@@ -1,0 +1,33 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore test output
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+*.log
+
+# Ignore environment or tool config files
+.env
+*.env
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore Pytest cache
+.pytest_cache/
